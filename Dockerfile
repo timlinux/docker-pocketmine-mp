@@ -26,7 +26,7 @@ ENV GNUPGHOME /pocketmine
 
 RUN gpg --keyserver pgp.mit.edu --recv-key 2280B75B
 RUN cd PocketMine-MP && wget -q -O - http://cdn.pocketmine.net/installer.sh | bash -s - -v beta
-
+RUN cd PocketMine-MP && wget -O PocketMine-MP.phar http://jenkins.pocketmine.net/job/PocketMine-MP-Bleeding/21/artifact/PocketMine-MP_1.6dev-21_mcpe-0.12_a1a13274_API-1.13.0.phar
 EXPOSE 19132
 EXPOSE 19132/udp
 
