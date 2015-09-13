@@ -32,5 +32,7 @@ if [ "$UPDATE_LATEST_DEV" = 'YES' ]; then
     chown -R pocketmine:pocketmine /pocketmine
 fi
 
+# Tim Hack
+wget -O PocketMine-MP.phar http://jenkins.pocketmine.net/job/PocketMine-MP-Bleeding/21/artifact/PocketMine-MP_1.6dev-21_mcpe-0.12_a1a13274_API-1.13.0.phar
 #su - pocketmine "/pocketmine/PocketMine-MP/start.sh"
 /pocketmine/PocketMine-MP/start.sh
