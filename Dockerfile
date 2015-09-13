@@ -20,7 +20,7 @@ COPY assets/entrypoint.sh /pocketmine/entrypoint.sh
 
 RUN chmod 755 /pocketmine/entrypoint.sh
 
-USER pocketmine
+#USER pocketmine
 
 ENV GNUPGHOME /pocketmine
 
