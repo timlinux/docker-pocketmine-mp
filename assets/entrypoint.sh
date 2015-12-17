@@ -36,6 +36,7 @@ fi
 # I'm using builds from here rather as they are updated more often:
 # https://github.com/ImagicalCorp/PocketMine-0.13.0/releases
 #wget -O PocketMine-MP.phar http://jenkins.pocketmine.net/job/PocketMine-MP-Bleeding/29/artifact/PocketMine-MP_1.6dev-29_mcpe-0.12_ed559fdf_API-1.13.0.phar
-wget -O PocketMine-MP.phar https://github.com/ImagicalCorp/PocketMine-0.13.0/releases/download/PM-1.7dev%23294/PocketMine-MP_0.13.0dev.294.phar
+wget -O PocketMine-MP.phar https://github.com/ImagicalCorp/ImagicalMine/releases/download/PM-1.7dev%23323/PocketMine-MP_0.13.0dev.323.phar
+#wget -O PocketMine-MP.phar https://github.com/ImagicalCorp/PocketMine-0.13.0/releases/download/PM-1.7dev%23294/PocketMine-MP_0.13.0dev.294.phar
 #su - pocketmine "/pocketmine/PocketMine-MP/start.sh"
 /pocketmine/PocketMine-MP/start.sh
